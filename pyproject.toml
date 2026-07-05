@@ -1,7 +1,7 @@
 [project]
 name = "pm"
 version = "0.1.0"
-description = "Add your description here"
+description = "PM - useful Project Modules"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = []
