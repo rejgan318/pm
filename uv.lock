@@ -5,6 +5,7 @@ requires-python = ">=3.12"
 [manifest]
 members = [
     "pm",
+    "pm-common",
     "pm-constants",
     "pm-loguru-print",
 ]
@@ -35,6 +36,11 @@ wheels = [
 name = "pm"
 version = "0.1.0"
 source = { virtual = "." }
+
+[[package]]
+name = "pm-common"
+version = "0.1.0"
+source = { editable = "packages/pm_common" }
 
 [[package]]
 name = "pm-constants"

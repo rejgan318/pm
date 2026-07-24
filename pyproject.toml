@@ -10,4 +10,5 @@ dependencies = []
 members = [
     "packages/pm_loguru_print",
     "packages/pm_constants",
+    "packages/pm_common",
 ]
