@@ -1,2 +1,3 @@
-def hello() -> str:
-    return "Hello from pm-common!"
+from pm_common.shorten_path import shorten_path
+
+__all__ = ["shorten_path"]
